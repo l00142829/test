@@ -1,5 +1,6 @@
-Import-Module "Servermanager" 
-Add-WindowsFeature AD-Domain-Services, DNS -IncludeManagementTools
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
+Import-Module "ServerManager" 
+
 
 $netbiosname = 'MMproject'
 $fqdomname = 'MMproject.local'
