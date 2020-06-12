@@ -5,9 +5,9 @@ Import-Module "ServerManager"
 $Param_Details = @{
     CreateDnsDelegation = $false
     DatabasePath = 'C:\Windows\NTDS'
-    DomainMode = 'Windows Server 2016'
+    DomainMode = 'WinThreshold'
     DomainName = 'Management-Project.local'
-    DomainNetbiosName = 'MIKEFROBBINS'
+    DomainNetbiosName = 'Management-DC01'
     ForestMode = 'Windows Server 2016'
     InstallDns = $true
     LogPath = 'C:\Windows\NTDS'
