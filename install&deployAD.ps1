@@ -12,7 +12,7 @@ $Param_Details = @{
     InstallDns = $true
     LogPath = 'C:\Windows\NTDS'
     NoRebootOnCompletion = $false
-    SafeModeAdministratorPassword = $P@ssw0rd
+    SafeModeAdministratorPassword = $Password
     SysvolPath = 'C:\Windows\SYSVOL'
     Force = $true
     
